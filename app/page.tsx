@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from 'next/image'
 
 export default function Home() {
   return (
@@ -20,7 +20,7 @@ export default function Home() {
               Matthias Bayer
             </h1>
             <h2 className="text-base">
-              Hi, I&apos;m Matthias! I&apos;m a{" "}
+              Hi, I&apos;m Matthias! I&apos;m a{' '}
               <span className="font-semibold">Software Engineer</span> based in
               Germany with a passion for web technology.
             </h2>
@@ -28,7 +28,7 @@ export default function Home() {
 
           <div>
             <p>
-              Interested in working with me?{" "}
+              Interested in working with me?{' '}
               <a
                 href="https://cal.com/bayer"
                 target="_blank"
@@ -97,5 +97,5 @@ export default function Home() {
         </div>
       </section>
     </main>
-  );
+  )
 }
