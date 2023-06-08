@@ -10,7 +10,7 @@ export default function Home() {
             alt="Matthias Bayer"
             className="rounded-xl pointer-events-none"
             width={180}
-            height={226}
+            height={245}
             priority
           />
         </div>
