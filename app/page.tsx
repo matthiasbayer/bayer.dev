@@ -21,7 +21,7 @@ export default function Home() {
               Matthias Bayer
             </h1>
             <h2 className="text-base">
-              Hi, I'm Matthias! I'm a{" "}
+              Hi, I&apos;m Matthias! I&apos;m a{" "}
               <span className="font-semibold">Software Engineer</span> based in
               Germany with a passion for web technology.
             </h2>
