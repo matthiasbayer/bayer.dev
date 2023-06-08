@@ -16,7 +16,6 @@ export default function Home() {
         </div>
         <div className="flex flex-col gap-8">
           <div>
-            {/* <h4 className="text-lg font-semibold">Hi, I'm</h4> */}
             <h1 className="text-4xl font-bold text-blue-600 mb-4">
               Matthias Bayer
             </h1>
