@@ -2,8 +2,8 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center p-24 max-w-4xl mx-auto select-none">
-      <section className="flex flex-row gap-12">
+    <main className="flex min-h-screen flex-col items-center justify-center p-8 md:p-24 max-w-4xl mx-auto select-none">
+      <section className="flex flex-col md:flex-row gap-12">
         <div className="shrink-0">
           <Image
             src="/matthias-bayer.jpg"
@@ -33,7 +33,7 @@ export default function Home() {
                 href="https://cal.com/bayer"
                 target="_blank"
                 rel="noopener noreferer"
-                className="underline decoration-blue-600 underline-offset-4"
+                className="underline decoration-blue-600 underline-offset-4 block md:inline"
               >
                 Let&apos;s chat!
               </a>
