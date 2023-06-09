@@ -33,7 +33,7 @@ export default function Home() {
                 href="https://cal.com/bayer"
                 target="_blank"
                 rel="noopener noreferer"
-                className="underline decoration-neutral-500 underline-offset-4 block md:inline"
+                className="underline decoration-neutral-500 dark:decoration-neutral-300 underline-offset-4 block md:inline"
               >
                 Let&apos;s chat!
               </a>
