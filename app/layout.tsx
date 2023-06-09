@@ -2,12 +2,15 @@ import './globals.css'
 import { Montserrat } from 'next/font/google'
 import clsx from 'clsx'
 import { Analytics } from '@vercel/analytics/react'
+import { Metadata } from 'next'
 
 const montserrat = Montserrat({ subsets: ['latin'] })
 
-export const metadata = {
+export const metadata: Metadata = {
   title: 'Matthias Bayer',
   description: 'Software Engineer',
+  
+
 }
 
 export default function RootLayout({

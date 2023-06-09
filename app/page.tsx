@@ -1,6 +1,6 @@
 import Image from 'next/image'
 
-import ProfilePicture from '../public/matthias-bayer.png'
+import ProfilePicture from '../public/matthias-bayer-2.png'
 
 export default function Home() {
   return (
