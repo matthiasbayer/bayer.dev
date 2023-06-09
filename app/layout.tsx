@@ -19,7 +19,7 @@ export default function RootLayout({
       <body
         className={clsx(
           montserrat.className,
-          "antialiased bg-neutral-950 text-white"
+          "antialiased bg-white dark:bg-neutral-950 text-neutral-800 dark:text-white"
         )}
       >
         {children}
