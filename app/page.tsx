@@ -18,9 +18,7 @@ export default function Home() {
         </div>
         <div className="flex flex-col gap-8">
           <div>
-            <h1 className="text-4xl font-bold text-blue-600 mb-4">
-              Matthias Bayer
-            </h1>
+            <h1 className="text-4xl font-bold mb-4">Matthias Bayer</h1>
             <h2 className="text-base">
               Hi, I&apos;m Matthias! I&apos;m a{' '}
               <span className="font-semibold">Software Engineer</span> based in
@@ -35,7 +33,7 @@ export default function Home() {
                 href="https://cal.com/bayer"
                 target="_blank"
                 rel="noopener noreferer"
-                className="underline decoration-blue-600 underline-offset-4 block md:inline"
+                className="underline decoration-neutral-500 underline-offset-4 block md:inline"
               >
                 Let&apos;s chat!
               </a>
