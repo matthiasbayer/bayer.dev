@@ -1,12 +1,14 @@
 import Image from 'next/image'
 
+import ProfilePicture from '../public/matthias-bayer.png'
+
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-center p-8 md:p-24 max-w-3xl mx-auto select-none">
       <section className="flex flex-col md:flex-row gap-12">
         <div className="shrink-0">
           <Image
-            src="/matthias-bayer.png"
+            src={ProfilePicture}
             alt="Matthias Bayer"
             className="rounded-full pointer-events-none"
             width={120}
