@@ -2,15 +2,15 @@ import Image from 'next/image'
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center p-8 md:p-24 max-w-4xl mx-auto select-none">
+    <main className="flex min-h-screen flex-col items-center justify-center p-8 md:p-24 max-w-3xl mx-auto select-none">
       <section className="flex flex-col md:flex-row gap-12">
         <div className="shrink-0">
           <Image
-            src="/matthias-bayer.jpg"
+            src="/matthias-bayer.png"
             alt="Matthias Bayer"
-            className="rounded-xl pointer-events-none"
-            width={180}
-            height={245}
+            className="rounded-full pointer-events-none"
+            width={120}
+            height={120}
             priority
           />
         </div>
