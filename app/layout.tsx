@@ -9,8 +9,6 @@ const montserrat = Montserrat({ subsets: ['latin'] })
 export const metadata: Metadata = {
   title: 'Matthias Bayer',
   description: 'Software Engineer',
-  
-
 }
 
 export default function RootLayout({
