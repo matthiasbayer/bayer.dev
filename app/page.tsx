@@ -70,7 +70,7 @@ export default function Home() {
                 <LinkedIn />
               </a>
 
-              <a href="mailto:hello@bayer.dev">
+              <a href="mailto:%68%65%6c%6c%6f%40%62%61%79%65%72%2e%64%65%76">
                 <Mail />
               </a>
             </div>
